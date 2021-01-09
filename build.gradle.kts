@@ -1,7 +1,6 @@
 plugins {
     java
     kotlin("jvm") version "1.4.10"
-    id("org.jetbrains.kotlin.plugin.noarg") version "1.4.10"
     id("me.champeau.gradle.jmh") version "0.5.2"
 }
 
@@ -10,10 +9,6 @@ version = "0.1.0"
 
 repositories {
     mavenCentral()
-}
-
-noArg {
-    annotation("com.wrongwrong.NoArg")
 }
 
 dependencies {
