@@ -1,7 +1,7 @@
 plugins {
     java
-    kotlin("jvm") version "1.3.72"
-    id("org.jetbrains.kotlin.plugin.noarg") version "1.3.72"
+    kotlin("jvm") version "1.4.10"
+    id("org.jetbrains.kotlin.plugin.noarg") version "1.4.10"
     id("me.champeau.gradle.jmh") version "0.5.2"
 }
 
