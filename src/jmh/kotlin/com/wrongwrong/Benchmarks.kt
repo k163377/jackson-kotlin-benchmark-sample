@@ -11,7 +11,7 @@ open class Benchmarks {
     private val javaMapper = ObjectMapper()
     private val kotlinMapper = ObjectMapper().registerKotlinModule()
 
-    val expected = TargetClazz(1, 2, 3, 4, 5)
+    private val expected = TargetClazz(1, 2, 3, 4, 5)
     private val input: ByteArray = javaMapper.writeValueAsBytes(expected)
 
     @Benchmark
