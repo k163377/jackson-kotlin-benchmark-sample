@@ -14,10 +14,10 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
 
-    implementation(group = "com.fasterxml.jackson.core", name = "jackson-databind", version = "2.12.0")
+    implementation(group = "com.fasterxml.jackson.core", name = "jackson-databind", version = "2.12.3")
 
     // use released
-    implementation(group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin", version = "2.12.0")
+    implementation(group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin", version = "2.12.3")
     // use local
     // implementation(files("\${Absolute path to jar}"))
     // implementation(kotlin("reflect"))
