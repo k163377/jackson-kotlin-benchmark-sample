@@ -1,6 +1,6 @@
 plugins {
     java
-    kotlin("jvm") version "1.4.21"
+    kotlin("jvm") version "1.5.31"
     id("me.champeau.gradle.jmh") version "0.5.2"
 }
 
@@ -14,10 +14,10 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
 
-    implementation(group = "com.fasterxml.jackson.core", name = "jackson-databind", version = "2.12.3")
+    implementation(group = "com.fasterxml.jackson.core", name = "jackson-databind", version = "2.13.0")
 
     // use released
-    implementation(group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin", version = "2.12.3")
+    implementation(group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin", version = "2.13.0")
     // use local
     // implementation(files("\${Absolute path to jar}"))
     // implementation(kotlin("reflect"))
