@@ -38,6 +38,7 @@ tasks {
     // https://qiita.com/wrongwrong/items/16fa10a7f78a31830ed8
     jmhJar {
         exclude("META-INF/versions/9/module-info.class")
+        exclude("META-INF/versions/11/module-info.class")
     }
 }
 
